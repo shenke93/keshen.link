@@ -1,0 +1,26 @@
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 2
+title = "闲云野鹤"
+
+[params]
+  displayName = "简体中文"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "Jan 2, 2006"
+  # logo = "images/logo.png"
+  # secondaryLogo
+  description = "际遇如风，心行自若。"
+  copyright = "© 2024 - { year } <span class='inline-block'><a href='/copyright/' target='_blank'>keshen.link</a> All Rights Reserved</span>." 
+
+[params.author]
+  name = "闲云野鹤"
+  image = "images/author.jpg"
+  # imageQuality = 96
+  headline = "际遇如风，心行自若。"
+  bio = "际遇如风，心行自若。"
+  links = [
+    { github = "https://github.com/shenke93" },
+    { linkedin = "https://www.linkedin.com/in/ke-shen-a08115b7" },
+    { steam = "https://steamcommunity.com/profiles/76561199699754146/" },
+  ]
