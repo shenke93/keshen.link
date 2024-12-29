@@ -14,7 +14,7 @@ title = "Ke Shen's Blog"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
   description = "Love, fate, the choices we make."
-  copyright = "© 2024 - { year } <span class='inline-block'><a href='/copyright/' target='_blank'>keshen.link</a> All Rights Reserved</span>." 
+  copyright = "© 2024 - { year }, <span class='inline-block'><a href='/copyright/' target='_blank'>keshen.link, </a> all rights reserved</span>." 
 
 [params.author]
 name = "Ke"
