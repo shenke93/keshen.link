@@ -1,6 +1,6 @@
 
 ---
-title: "Privacy Ppolicy"
+title: "Privacy Policy"
 date: "2024-12-29 00:00:00"
 type: "sample"
 layout: "privacy-policy"

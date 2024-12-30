@@ -8,15 +8,16 @@ title = "闲云野鹤"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "Jan 2, 2006"
-  # logo = "images/logo.png"
+  # logo = "images/author.jpg"
   # secondaryLogo
+
   description = "际遇如风，心行自若。"
   copyright = "© 2024 - { year }, <span class='inline-block'><a href='/copyright/' target='_blank'>keshen.link, </a> all rights reserved</span>." 
 
 [params.author]
   name = "闲云野鹤"
   image = "images/author.jpg"
-  # imageQuality = 96
+  imageQuality = 96
   headline = "际遇如风，心行自若。"
   bio = "际遇如风，心行自若。"
   links = [
