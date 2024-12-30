@@ -9,10 +9,9 @@ title = "Ke Shen's Blog"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  
+  # logo = "images/author.jpg"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
   description = "Love, fate, the choices we make."
   copyright = "© 2024 - { year }, <span class='inline-block'><a href='/copyright/' target='_blank'>keshen.link, </a> all rights reserved</span>." 
 
