@@ -74,9 +74,9 @@ enableEmoji = true
       weight = 10
 
 # Custom
-# [permalinks]
-#   blog = "/:slug/" 
-#   tags = "/tags/:slug/" 
+[permalinks]
+  blog = "/:slug/" 
+  tags = "/tags/:slug/" 
 
 [outputFormats]
   [MarkDown]
