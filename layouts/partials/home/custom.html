@@ -77,7 +77,7 @@
 																				<div class="ticker-header"></div>
 																				<ul class="ticker-list">
 																					<li class="ticker-item">
-																						<a href="https://www.eallion.com/mastodon/" target="_blank" rel="noopener noreferrer">机会总是垂青于有准备的人！</a>
+																						<a href="https://keshen.link/mastodon/" target="_blank" rel="noopener noreferrer">机会总是垂青于有准备的人！</a>
 																					</li>
 																				</ul>
 																			</div>
@@ -187,5 +187,125 @@
 				background_blur.style.opacity = (scroll / 300)
 		});
 
+</script>
+
+<script>
+	// 远程 JSON API 地址
+	let jsonUrl = "https://mastodon.social/api/v1/accounts/113752846580349682/statuses?limit=10&exclude_replies=true&exclude_reblogs=true";
+
+	// 处理 Json 数据
+	if (document.querySelector('#ticker')) {
+		fetch(jsonUrl)
+			.then(res => res.json())
+			.then(res => {
+				var result = '';
+				var data = res;
+				for (var i = 0; i < data.length; i++) {
+					var tickerTime = new Date(data[i].created_at);
+					var tickerContent = extractTextFromHtml(data[i].content);
+					var tickerUrl = data[i].url;
+					const replacements = {
+						'\\s*:star_empty:\\s*': '🌑',
+						'\\s*:star_half:\\s*': '🌗',
+						'\\s*:star_solid:\\s*': '🌕'
+					};
+					tickerContent = replaceMultiple(tickerContent, replacements);
+					var relativeTime = getRelativeTime(tickerTime);
+					result += `<li class="ticker-item" data-index="${i}">
+									<span class="datetime">${relativeTime}</span>：
+									<a href="${tickerUrl}" target="_blank">${tickerContent}</a>
+								</li>`;
+				}
+				var tickerDom = document.querySelector('#ticker');
+				var tickerBefore = `<div class="ticker-header"></div><ul class="ticker-list">`;
+				var tickerAfter = `</ul>`;
+				resultAll = tickerBefore + result + tickerAfter;
+				tickerDom.innerHTML = resultAll;
+
+				// 初始化第一个 ticker-item 为 active
+				var tickerItems = document.querySelectorAll('.ticker-item');
+				if (tickerItems.length > 0) {
+					tickerItems[0].classList.add('active');
+				}
+
+				// 滚动效果
+				let slideInterval;
+				function slideTickerItem() {
+					var tickerItems = document.querySelectorAll('.ticker-item');
+					if (tickerItems.length > 0) {
+						var activeItem = document.querySelector('.ticker-item.active');
+						var nextIndex = (parseInt(activeItem.getAttribute('data-index')) + 1) % tickerItems.length;
+						var nextItem = document.querySelector(`.ticker-item[data-index="${nextIndex}"]`);
+
+						activeItem.classList.remove('active');
+						activeItem.classList.add('out');
+						nextItem.classList.add('in');
+
+						setTimeout(() => {
+							activeItem.classList.remove('out');
+							nextItem.classList.remove('in');
+							nextItem.classList.add('active');
+						}, 300);
+					}
+					slideInterval = setTimeout(slideTickerItem, 3000);
+				}
+				slideTickerItem();
+
+				// 暂停和恢复滚动
+				const tickerList = document.querySelector('.ticker-list');
+				tickerList.addEventListener('mouseenter', () => {
+					clearTimeout(slideInterval);
+				});
+				tickerList.addEventListener('mouseleave', () => {
+					slideTickerItem();
+				});
+			});
+	}
+
+	// 计算相对时间的函数
+	function getRelativeTime(date) {
+		const rtf = new Intl.RelativeTimeFormat('zh-CN', { numeric: "auto", style: 'short' });
+
+		const now = new Date();
+		const diff = now - date;
+
+		const seconds = Math.floor(diff / 1000);
+		const minutes = Math.floor(seconds / 60);
+		const hours = Math.floor(minutes / 60);
+		const days = Math.floor(hours / 24);
+		const months = Math.floor(days / 30);
+		const years = Math.floor(days / 365);
+
+		if (years > 0) {
+			return rtf.format(-years, 'year');
+		} else if (months > 0) {
+			return rtf.format(-months, 'month');
+		} else if (days > 0) {
+			return rtf.format(-days, 'day');
+		} else if (hours > 0) {
+			return rtf.format(-hours, 'hour');
+		} else if (minutes > 0) {
+			return rtf.format(-minutes, 'minute');
+		} else {
+			return rtf.format(-seconds, 'second');
+		}
+	}
+
+	// 替换字符串
+	function replaceMultiple(str, replacements) {
+		let result = str;
+		for (const pattern in replacements) {
+			const regex = new RegExp(pattern, 'g');
+			result = result.replace(regex, replacements[pattern]);
+		}
+		return result;
+	}
+
+	// 提取 HTML 代码中的纯文本内容
+	function extractTextFromHtml(html) {
+		const parser = new DOMParser();
+		const doc = parser.parseFromString(html, 'text/html');
+		return doc.body.textContent || '';
+	}
 </script>
 {{ end }}
