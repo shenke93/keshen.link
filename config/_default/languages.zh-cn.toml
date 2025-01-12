@@ -23,5 +23,6 @@ title = "闲云野鹤"
   links = [
     { github = "https://github.com/shenke93" },
     { linkedin = "https://www.linkedin.com/in/ke-shen-a08115b7" },
+    { mastodon = "https://mastodon.social/@keshen" },
     { steam = "https://steamcommunity.com/profiles/76561199699754146/" },
   ]

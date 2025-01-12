@@ -11,40 +11,45 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "博客"
+ name = "篇章"
  pageRef = "blog"
  weight = 10
 
 [[main]]
-  name = "关于"
+  name = "一念"
+  pageRef = "mastodon"
+  weight = 11
+
+[[main]]
+  name = "如我"
   pageRef = "about"
   weight = 15
 
 [[main]]
-  name = "更多"
+  name = "未尽"
   weight = 20
 
 [[main]]
-  name = "统计"
-  parent = "更多"
+  name = "衡量"
+  parent = "未尽"
   pageRef = "statistics"
   weight = 21
 
 [[main]]
-  name = "里程碑"
-  parent = "更多"
+  name = "印记"
+  parent = "未尽"
   pageRef = "milestone"
   weight = 22
 
 [[main]]
   name = "版权信息"
-  parent = "更多"
+  parent = "未尽"
   pageRef = "copyright"
   weight = 60
 
 [[main]]
   name = "隐私政策"
-  parent = "更多"
+  parent = "未尽"
   pageRef = "privacy-policy"
   weight = 70
 

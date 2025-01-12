@@ -19,7 +19,8 @@ showZenMode: true
 
 ### Domain
 
-This site has the only domain name `keshen.link`, sub domain name `www.keshen.link`. 
+This site has the domain name `keshen.link`.
+
 <!-- In addition to the related, similar domain names, unless by my real name authentication, or filed in my name, or are owned by others, or by others to steal information, and I have nothing to do. -->
 
 ### Title
@@ -85,4 +86,4 @@ The original content reproduced on this site will be reprinted with the consent 
 
 ### Contact
 
-<!-- * Email: [eallions@gmail.com](mailto:eallions@gmail.com) -->
+* Email: [contact@keshen.link](mailto:contact@keshen.link)

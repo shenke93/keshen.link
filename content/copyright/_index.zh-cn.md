@@ -18,7 +18,7 @@ showZenMode: true
 
 ### 域名
 
-本站拥有唯一域名 `keshen.link` 、二级域名 `www.keshen.link`。
+本站域名为 `keshen.link`。
 
 <!-- ### 备案
 
@@ -85,4 +85,4 @@ showZenMode: true
 
 ### 联系方式
 
-<!-- * Email: [eallions@gmail.com](mailto:eallions@gmail.com) -->
+* Email: [contact@keshen.link](mailto:contact@keshen.link)
