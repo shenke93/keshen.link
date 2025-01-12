@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "篇章"
+ name = "长篇"
  pageRef = "blog"
  weight = 10
 
@@ -98,12 +98,12 @@
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "统计"
+  name = "衡量"
   pageRef = "statistics"
   weight = 21
 
 [[footer]]
-  name = "里程碑"
+  name = "印记"
   pageRef = "milestone"
   weight = 22
 
