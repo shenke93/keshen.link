@@ -71,4 +71,5 @@ links = [
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
+    { douban = "https://www.douban.com/people/78264346/?_i=8051929AJu_IdT"},
 ]
