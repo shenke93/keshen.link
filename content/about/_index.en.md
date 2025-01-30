@@ -17,122 +17,48 @@ showComments: false
 sharingLinks: false
 showZenMode: false
 ---
-
 <div class="greyQuote">
     <blockquote>
-        <span id="zen">Chance favors the prepared mind.</span> - <span id="githubZen"><cite>Louis Pasteur</cite></span>
+        <span id="hitokoto">Love, fate, the choices we make.</span>
     </blockquote>
 </div>
 
-<img class="nozoom" src="/eallion.webp" alt="eallion" class="about-avatar">
+<img class="nozoom" src="/ke.webp" class="about-avatar">
 
-I'm Charles Chin. `eallion` has been my nickname for over 20 years.
-AKA: 大大的小蜗牛.
-I live in the UTC+08:00 timezone and work from home.
-I work in E-commerce, not IT.
-
-My favorite motto is:
-
-> [Chance favors the prepared mind.](https://en.wikipedia.org/wiki/Louis_Pasteur#Career) - _Louis Pasteur_
 
 ### TL;DR
 
-* He / Him
-* COO
-* WFH
-* FOSS
-* Geeker
-* Blogger
-* E-Commerce
-* Non-IT Indiv.
+* INFJ
+* Cat Lover
+* Muk (Pokémon) at Home
+* Permanent Head Damage (a.k.a. PhD)
+* Model Citizen in Reality, 5 Stars Wanted in GTA
 
-### Description
+### Introduction
 
-* This project powered by [Hugo](https://gohugo.io/)
-* Hosted by Alibabacloud [OSS](https://www.aliyun.com/product/oss) through GitHub Actions and [Cloudflare Pages](https://pages.cloudflare.com/)
-* Themed by [Blowfish](https://github.com/nunocoracao/blowfish)
-* The Toot page relies on the Mastodon instance at [https://e5n.cc](https://e5n.cc)
-* The Watched page relies on [https://neodb.social](https://neodb.social/users/eallion@e5n.cc/)
-* The comment system relies on Giscus at [https://giscus.app](https://giscus.app/)
+I've been writing blogs since secondary school. My first blogging platform was [QZone](https://en.wikipedia.org/wiki/Qzone) until 2015, which had a strong connection with my [QQ](https://en.wikipedia.org/wiki/Tencent_QQ) (a popular Chinese social network) profile and most of the early readers were friends and relatives. I moved to [Douban](https://en.wikipedia.org/wiki/Douban) after I studied abroad, but the inconvenient in-logging and article-publishing process depressed me somehow, thus was motivated to build my own personal website. All new blogs will be transferred to this site, despite Douban has such a nice social networking service that I will continue to use for reviewing films, books and diving in interest groups.
 
-### Copyright
+A preview version of this site was created at the second half of 2023, deployed on [Github Pages](https://pages.github.com/) and powered by [Hexo](https://hexo.io/). 
 
-* [https://www.eallion.com/en/copyright/](https://www.eallion.com/en/copyright/)
+<!-- 建站的目的主要是为了找工作攒一些作品，好歹根正苗红多年计算机科班，没搓出个自己的网站来实在是说不过去。然而先行版有几大硬伤，首先是没有独立域名，看起来非常不专业。其次Github Pages的功能特性（朕不给你，你不能抢）比起赛博大善人Cloudflare有点太简陋，有些功能可以不用，但不能没有，得留点做大做强的余地（梦想还是要有的）。另外当时忙着学新东西（找工作），写了两篇博客就又搁置了。写博客的体验也不是很好，工具链不支持足够聚焦创作内容，网站显示效果也不够美观。一晃到2024年底，为了维持写作和阅读能力避免躺平（用进废退，反正无论如何也干不过AI），怀着新开一个大玩具（有趣又有用）的心态，决定要好好把个人网站重新经营起来，于是就有了本站。
 
-### Privacy Policy
+等等，「如我」页面重点不应该是自我介绍吗......然而I人最怕的就是自我介绍（我好怕呀），这里就不勉强了，在[速写]({{< ref "/about/_index.zh-cn.md#速写" >}})里已经能有个大概。如果实在还想多了解一些，那我问你，你的头怎么尖尖的？ -->
 
-* [https://www.eallion.com/en/privacy-policy/](https://www.eallion.com/en/privacy-policy/)
+### Techniques
 
-### GitHub Open Source
+* The site is powered by [Hugo](https://gohugo.io/) using the [Blowfish](https://github.com/nunocoracao/blowfish) theme.
+* The site is deployed on [Cloudflare Pages](https://pages.cloudflare.com/).
+* The site repository is hosted on [Github](https://github.com/shenke93/keshen.link).  
+<!-- * 「一念」页面依赖 Mastodon 实例：[https://e5n.cc](https://e5n.cc)   -->
+<!-- * 观影页面依赖 NeoDB：[https://neodb.social](https://neodb.social/users/eallion@e5n.cc/)
+* 评论系统处于半关闭状态，依赖 Giscus：[https://giscus.app](https://giscus.app/) -->
 
-* [https://github.com/eallion/eallion.com](https://github.com/eallion/eallion.com)
-
-### Sitemap
-
-* About me: [https://about.eallion.com](https://about.eallion.com/)
-* My Favorites: [https://s.eallion.com](https://s.eallion.com/)
-* Mastodon: [https://www.eallion.com/toot/](https://www.eallion.com/toot/)
-* Album: [https://www.eallion.com/album/](https://www.eallion.com/album/)
-* Watched: [https://www.eallion.com/movie/](https://www.eallion.com/movie/)
-* Goods: [https://www.eallion.com/goods/](https://www.eallion.com/goods/)
-* LOL Penta: [https://www.eallion.com/penta/](https://www.eallion.com/penta/)
-
-### Contact
-
-<div class="badge">
-  <a><img class="nozoom" src="https://img.shields.io/badge/Gmail-eallions@gmail.com-blue?style=flat&labelColor=555&logo=gmail&logoColor=fff"></a>
-  <a href="https://keybase.io/eallion/pgp_keys.asc?fingerprint=4f07c9a0617d7166f03be7cc6a9279328406fb6c" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/keybase/pgp/eallion?label=Keybase%20OpenPGP&logo=keybase&logoColor=fff&style=flat">
-  </a>
-</div>
-
-### Social network
-
-<div class="badge">
-  <a href="https://github.com/eallion" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/badge/GitHub-@eallion-blue?style=flat&labelColor=555&logo=GitHub&logoColor=fff">
-  </a>
-  <a href="https://e5n.cc/@eallion" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/badge/Mastodon-@eallion-blue?style=flat&labelColor=555&logo=mastodon&logoColor=fff">
-  </a>
-  <a href="https://steamcommunity.com/id/eallion" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/badge/Steam-@eallion-blue?style=flat&labelColor=555&logo=Steam&logoColor=fff">
-  </a>
-  <a href="https://x.com/eallion" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/badge/@eallion-blue?style=flat&labelColor=555&logo=x&logoColor=fff">
-  </a>
-  <a href="https://keybase.io/eallion" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/badge/Keybase-@eallion-blue?style=flat&labelColor=555&logo=Keybase&logoColor=fff">
-  </a>
-</div>
-
-### Status
-
-<div class="badge">
-  <a href="https://github.com/eallion/eallion.com/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/badge/License-GLWT-green">
-  </a>
-  <a href="https://stats.uptimerobot.com/LvmZRfkNGP" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" alt="Uptime Robot ratio (30 days)" src="https://img.shields.io/uptimerobot/ratio/m783953686-5912db7169eea9ce488b60c1?link=https%3A%2F%2Fstatus.eallion.com">
-  </a>
-  <a href="https://github.com/eallion/eallion.com" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/github/repo-size/eallion/eallion.com">
-  </a>
-  <a href="https://github.com/eallion/eallion.com/tags" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/github/v/tag/eallion/eallion.com">
-  </a>
-  <a href="https://github.com/eallion/eallion.com/tags" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/github/commits-since/eallion/eallion.com/v4.0.6/main">
-  </a>
-  <a href="https://github.com/eallion/eallion.com/commits/main" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://img.shields.io/github/last-commit/eallion/eallion.com">
-  </a>
-  <a href="https://wakatime.com/@018dff59-cb93-47dc-bf2d-945cab4bdaae" target="_blank" rel="noopener noreferrer">
-    <img class="nozoom" src="https://wakatime.com/badge/user/018dff59-cb93-47dc-bf2d-945cab4bdaae/project/018dffa2-e555-41e5-b4b8-abdc7df6ea3d.svg" alt="Total time coded since Mar 2 2024" />
-  </a>
-</div>
 
 ### Thanks
+
+This site is inspired by：
+
+- [Charles Chin’s Blog](https://www.eallion.com/en/) （**Special Thanks**）
 
 <div class="badge">
   <a href="https://html5.org/" target="_blank" rel="noopener noreferrer">
@@ -150,25 +76,25 @@ My favorite motto is:
 </div>
 
 <div class="badge">
-  <a href="https://www.aliyun.com" target="_blank" rel="noopener noreferrer">
+  <!-- <a href="https://www.aliyun.com" target="_blank" rel="noopener noreferrer">
     <img class="nozoom" src="https://img.shields.io/badge/Aliyun-blue?style=flat&color=blue&labelColor=555&logo=Alibaba-Cloud&logoColor=fff">
-  </a>
+  </a> -->
   <a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer">
     <img class="nozoom" src="https://img.shields.io/badge/Cloudflare-blue?style=flat&color=blue&labelColor=555&logo=cloudflare&logoColor=fff">
   </a>
-  <a href="https://docker.com/" target="_blank" rel="noopener noreferrer">
+  <!-- <a href="https://docker.com/" target="_blank" rel="noopener noreferrer">
     <img class="nozoom" src="https://img.shields.io/badge/Docker-blue?style=flat&color=blue&labelColor=555&logo=Docker&logoColor=fff">
-  </a>
-  <a href="https://giscus.app/" target="_blank" rel="noopener noreferrer">
+  </a> -->
+  <!-- <a href="https://giscus.app/" target="_blank" rel="noopener noreferrer">
     <img class="nozoom" src="https://img.shields.io/badge/Giscus-blue?style=flat&color=blue&labelColor=555&logoColor=fff&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNNiAyTDIgOGwxMCAxNEwyMiA4bC00LTZ6Ii8+PC9zdmc+">
-  </a>
+  </a> -->
   <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
     <img class="nozoom" src="https://img.shields.io/badge/GitHub-blue?style=flat&color=blue&labelColor=555&logo=GitHub&logoColor=fff">
   </a>
-  <a href="https://github.com/actions" target="_blank" rel="noopener noreferrer">
+  <!-- <a href="https://github.com/actions" target="_blank" rel="noopener noreferrer">
     <img class="nozoom" src="https://img.shields.io/badge/GitHub%20Actions-blue?style=flat&color=blue&labelColor=555&logo=GitHub-Actions&logoColor=fff">
-  </a>
-  <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+  </a> -->
+  <!-- <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
     <img class="nozoom" src="https://img.shields.io/badge/Google-blue?style=flat&color=blue&labelColor=555&logo=Google&logoColor=fff">
   </a>
   <a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer">
@@ -188,8 +114,8 @@ My favorite motto is:
   </a>
   <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
     <img class="nozoom" src="https://img.shields.io/badge/Vercel-blue?style=flat&color=blue&labelColor=555&logo=Vercel&logoColor=fff">
-  </a>
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+  </a> -->
+  <!-- <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
     <img class="nozoom" src="https://img.shields.io/badge/VS%20Code-blue?style=flat&color=blue&labelColor=555&logo=visual-studio-code&logoColor=fff">
-  </a>
+  </a> -->
 </div>
