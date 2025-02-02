@@ -46,6 +46,9 @@ showZenMode: false
 
 等等，「如我」页面重点不应该是自我介绍吗......然而I人最怕的就是自我介绍（我好怕呀），这里就不勉强了，在 [速写]({{< ref "/about/_index.zh-cn.md#速写" >}}) 里已经能有个大概。如果实在还想多了解一些，那我问你，你的头怎么尖尖的？
 
+<img class="nozoom" src="/doubt.webp" class="about-avatar" style="width: 150px; height: auto;">
+
+
 ### 说明
 
 * 本站使用 [Hugo](https://gohugo.io/) 构建，主题使用 [Blowfish](https://github.com/nunocoracao/blowfish)

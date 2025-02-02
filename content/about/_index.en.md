@@ -23,26 +23,29 @@ showZenMode: false
     </blockquote>
 </div>
 
-<img class="nozoom" src="/ke.webp" class="about-avatar">
+<img class="nozoom" src="/ke.webp" class="about-avatar" style="width: 150px; height: auto;">
 
 
 ### TLDR
 
 * INFJ
-* Cat Lover
-* Muk (Pokémon) at Home
-* Permanent Head Damage (a.k.a. PhD)
-* Model Citizen in Reality, 5 Stars Wanted in GTA
+* Cat lover
+* [Muk](https://www.pokemon.com/us/pokedex/muk) at home
+* Permanent head Damage (PhD)
+* Asleep during the day, awake during the night
+* Model citizen in reality, 5 stars wanted in [night city](https://cyberpunk.fandom.com/wiki/Night_City) 
 
 ### Introduction
 
 I've been writing blogs since secondary school. My first blogging platform was [QZone](https://en.wikipedia.org/wiki/Qzone) until 2015, which had a strong connection with my [QQ](https://en.wikipedia.org/wiki/Tencent_QQ) (a popular Chinese social network) profile and most of the early readers were friends and relatives. I moved to [Douban](https://en.wikipedia.org/wiki/Douban) after I studied abroad, but the inconvenient in-logging and article-publishing process depressed me somehow, thus was motivated to build my own personal website. All new blogs will be transferred to this site, despite Douban has such a nice social networking service that I will continue to use for reviewing films, books and diving in interest groups.
 
-A preview version of this site was created at the second half of 2023, deployed on [Github Pages](https://pages.github.com/) and powered by [Hexo](https://hexo.io/). 
+A preview version of this site was created at the second half of 2023, deployed on [Github Pages](https://pages.github.com/) and powered by [Hexo](https://hexo.io/). The aim was to demonstrate skills acquired from previous education experience in computer science, considering that making a personal website wouldn't be that difficult (but I am lazy). However, that preview version had several main disadvantages. The site had no domain name thus looked 'unprofessional'. The functionalities of Github Pages were very limited compared to the powerful Cloudflare (even with the free plan), making it impossible for future scaling. The blogging experience could not satisfy the content-focusing workflow and did not support full automation. In the meantime, I was quite busy looking for a job and making preparations, not able to put much effort on the website.
 
-建站的目的主要是为了找工作攒一些作品，好歹根正苗红多年计算机科班，没搓出个自己的网站来实在是说不过去。然而先行版有几大硬伤，首先是没有独立域名，看起来非常不专业。其次Github Pages的功能特性（朕不给你，你不能抢）比起赛博大善人Cloudflare有点太简陋，有些功能可以不用，但不能没有，得留点做大做强的余地（梦想还是要有的）。另外当时忙着学新东西（找工作），写了两篇博客就又搁置了。写博客的体验也不是很好，工具链不支持足够聚焦创作内容，网站显示效果也不够美观。一晃到2024年底，为了维持写作和阅读能力避免躺平（用进废退，反正无论如何也干不过AI），怀着新开一个大玩具（有趣又有用）的心态，决定要好好把个人网站重新经营起来，于是就有了本站。
+I decided to rebuild this website by the end of 2024 to stimulate (or maintain) my reading and writing ability (though would never be possible to catch up with the AI) by keeping on blogging. Moreover, this scope of this site would be expanded over purely professional or technical articles. For sure, it would be a creative site with a lot of fun.
 
-等等，「如我」页面重点不应该是自我介绍吗......然而I人最怕的就是自我介绍（我好怕呀），这里就不勉强了，在 [速写]({{< ref "/about/_index.en.md#tldr" >}}) 里已经能有个大概。如果实在还想多了解一些，那我问你，你的头怎么尖尖的？
+Wait, should not the 'about' page contain a huge part of personal introduction? However, I am such a deeply introverted person being too afraid of self-introducing that can not add one section here for such purpose. For more information about myself, [TLDR]({{< ref "/about/_index.en.md#tldr" >}}) has been enough. If you really want to know more, then I ask you — why is your head so pointy?
+
+<img class="nozoom" src="/doubt.webp" class="about-avatar" style="width: 150px; height: auto;">
 
 ### Techniques
 
