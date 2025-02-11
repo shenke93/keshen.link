@@ -29,11 +29,11 @@
   name = "未尽"
   weight = 20
 
-[[main]]
-  name = "衡量"
-  parent = "未尽"
-  pageRef = "statistics"
-  weight = 21
+# [[main]]
+#   name = "衡量"
+#   parent = "未尽"
+#   pageRef = "statistics"
+#   weight = 21
 
 [[main]]
   name = "印记"
@@ -97,10 +97,10 @@
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-[[footer]]
-  name = "衡量"
-  pageRef = "statistics"
-  weight = 21
+# [[footer]]
+#   name = "衡量"
+#   pageRef = "statistics"
+#   weight = 21
 
 [[footer]]
   name = "印记"

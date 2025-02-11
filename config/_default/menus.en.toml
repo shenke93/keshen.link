@@ -29,11 +29,11 @@
   name = "More"
   weight = 20
 
-[[main]]
-  name = "Stats"
-  parent = "More"
-  pageRef = "statistics"
-  weight = 21
+# [[main]]
+#   name = "Stats"
+#   parent = "More"
+#   pageRef = "statistics"
+#   weight = 21
 
 [[main]]
   name = "Milestone"
@@ -97,10 +97,10 @@
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-[[footer]]
-  name = "Stats"
-  pageRef = "statistics"
-  weight = 21
+# [[footer]]
+#   name = "Stats"
+#   pageRef = "statistics"
+#   weight = 21
 
 [[footer]]
   name = "Milestone"
