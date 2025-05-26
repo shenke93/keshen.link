@@ -19,7 +19,7 @@ showZenMode: false
 ---
 <div class="greyQuote">
     <blockquote>
-        <span id="hitokoto">缘生于心，路起于行。</span>
+        <span id="hitokoto">广阔天地，大有作为。</span>
     </blockquote>
 </div>
 
