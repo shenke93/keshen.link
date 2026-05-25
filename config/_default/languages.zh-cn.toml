@@ -27,3 +27,6 @@ title = "闲云野鹤"
     { steam = "https://steamcommunity.com/profiles/76561199699754146/" },
     { douban = "https://www.douban.com/people/78264346/?_i=8051929AJu_IdT"},
   ]
+
+[params.homepage]
+  showMoreLinkDest = "/zh-cn/blog/"
